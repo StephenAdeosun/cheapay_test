@@ -1,0 +1,9 @@
+/* Signup.css */
+input::placeholder {
+  color: transparent;
+}
+
+.has-content::placeholder {
+  color: red; /* Set the desired color for the floating placeholder */
+  transition: color 0.3s;
+}
